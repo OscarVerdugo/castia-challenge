@@ -14,6 +14,10 @@ const PORT = process.env.PORT || 3001;
 
 app.use("/api",router);
 
+app.get("/",(_req, res)=>{
+    res.send("Hello!!");
+});
+
 app.listen(PORT, ()=>{
     console.log(`Server running on port ${PORT}`);
 });
