@@ -3,7 +3,8 @@
 ## Deployed API on Heroku
 
 https://castia-challenge.herokuapp.com/
-https://castia-challenge.herokuapp.com/api/github/top_users/joseph
+
+https://castia-challenge.herokuapp.com/api/github/top-users/joseph
 
 ## Installation instructions
 

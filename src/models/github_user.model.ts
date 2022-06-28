@@ -1,5 +1,6 @@
 export interface GitHubUser{
     username:string;
-    repositories:number;
-    followers:number;
+    repositories?:number;
+    followers?:number;
+    message?:string;
 }
